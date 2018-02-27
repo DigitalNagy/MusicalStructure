@@ -1,0 +1,159 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Description of each activity  -->
+    <style name="description">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/activity_text_view</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+        <item name="android:elevation">10dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- Menu items -->
+    <style name="menuItem">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/activity_text_view</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- Store Menu items -->
+    <style name="storeMenuItem">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/store_text_view</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- Menu item text -->
+    <style name="menuItemText">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+        <item name="android:paddingLeft">@dimen/menu_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- MainActvity Menu item image -->
+    <style name="menuItemImage">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">@dimen/menu_image_width</item>
+        <item name="android:layout_height">@dimen/menu_image_height</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+    </style>
+
+    <!-- Style for app tray at top and for logo on MainActivity -->
+    <style name="appTrayTop">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/app_tray_top</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+    </style>
+
+    <!-- Style for scroll view -->
+    <style name="scrollView">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- Style for app tray at bottom -->
+    <style name="appTrayBottom">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/app_tray_bottom</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+    </style>
+
+    <!-- Text for logo -->
+    <style name="logoText">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Image for logo -->
+    <style name="logoImage">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">@dimen/menu_image_width</item>
+        <item name="android:layout_height">@dimen/menu_image_height</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+        <item name="android:strokeColor">@color/activity_background</item>
+    </style>
+
+    <!-- Image for player icons  -->
+    <style name="iconImage">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">@dimen/menu_image_width</item>
+        <item name="android:layout_height">@dimen/menu_image_height</item>
+        <item name="android:layout_margin">@dimen/icon_margin</item>
+        <item name="android:strokeColor">@color/activity_background</item>
+    </style>
+
+    <!-- Now playing layout -->
+    <style name="nowPlaying">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/activity_text_view</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- List layout -->
+    <style name="list">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+    </style>
+
+    <!-- Now playing image -->
+    <style name="nowPlayingImage">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/menu_margin</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

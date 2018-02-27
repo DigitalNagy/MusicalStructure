@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <TextView
+        style="@style/description"
+        android:text="@string/activity_recent_description" />
+
+    <LinearLayout style="@style/nowPlaying">
+
+        <TextView
+            style="@style/menuItemText"
+            android:text="@string/recent_items" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/appTrayBottom">
+
+        <ImageView
+            android:id="@+id/now_playing_icon"
+            style="@style/iconImage"
+            android:src="@drawable/nowplaying" />
+
+        <ImageView
+            android:id="@+id/recent_icon"
+            style="@style/iconImage"
+            android:src="@drawable/recent" />
+
+        <ImageView
+            android:id="@+id/library_icon"
+            style="@style/iconImage"
+            android:src="@drawable/library" />
+
+        <ImageView
+            android:id="@+id/store_icon"
+            style="@style/iconImage"
+            android:src="@drawable/trolley" />
+
+    </LinearLayout>
+</LinearLayout>

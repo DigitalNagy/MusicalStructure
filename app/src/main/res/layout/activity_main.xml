@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/appLogo"
+        style="@style/appTrayTop">
+
+        <TextView
+            style="@style/logoText"
+            android:text="@string/name_first" />
+
+        <ImageView
+            style="@style/logoImage"
+            android:src="@drawable/logo" />
+
+        <TextView
+            style="@style/logoText"
+            android:text="@string/name_last" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/description"
+        android:text="@string/activity_main_description" />
+
+    <LinearLayout
+        android:id="@+id/now_playing"
+        style="@style/menuItem">
+
+        <ImageView
+            style="@style/menuItemImage"
+            android:src="@drawable/nowplaying" />
+
+        <TextView
+            style="@style/menuItemText"
+            android:text="@string/menu_item_one" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recently_played"
+        style="@style/menuItem">
+
+        <ImageView
+            style="@style/menuItemImage"
+            android:src="@drawable/recent" />
+
+        <TextView
+            style="@style/menuItemText"
+            android:text="@string/menu_item_two" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/library"
+        style="@style/menuItem">
+
+        <ImageView
+            style="@style/menuItemImage"
+            android:src="@drawable/library" />
+
+        <TextView
+            style="@style/menuItemText"
+            android:text="@string/menu_item_three" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/store"
+        style="@style/menuItem">
+
+        <ImageView
+            style="@style/menuItemImage"
+            android:src="@drawable/trolley" />
+
+        <TextView
+            style="@style/menuItemText"
+            android:text="@string/menu_item_four" />
+
+    </LinearLayout>
+</LinearLayout>
